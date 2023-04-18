@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="loteria:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>loteria</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="loteria-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="loteria:war exploded" />
+    </root>
+  </artifact>
+</component>
